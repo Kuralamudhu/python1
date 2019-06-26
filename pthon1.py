@@ -1,7 +1,8 @@
-n1,n2,n3=int(input().split())
-if n1>n and n1>n3:
-  print(n1)
-elif n2>n3:
-  print(n2)
+import sys
+a,b,c=map(int,(input('enter 3 no').split()))
+if a>b and a>c:
+  print(a)
+elif b>c:
+  print(b)
 else:
-  print(n3)
+  print(c)
